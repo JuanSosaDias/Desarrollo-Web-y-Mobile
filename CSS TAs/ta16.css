@@ -1,0 +1,41 @@
+#div1 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+/*Grandes*/
+@media (min-width: 1440px) {
+    body {
+      background-color: red;
+    }
+    p {
+      font-size: 24px;
+    }  
+    #Diente {
+      width: 50%;
+    }
+  }
+/*Medianas*/
+  @media (min-width: 426px) and (max-width: 1439px) {
+    body {
+      background-color: green;
+    }
+    p {
+      font-size: 18px;
+    }  
+    #Diente {
+      width: 70%;
+    }
+  }
+/*Pequeñas*/
+  @media (max-width: 425px) {
+    body {
+      background-color: blue;
+    }
+    p {
+      font-size: 14px;
+    }
+    #Diente {
+      width: 100%;
+    }
+  }

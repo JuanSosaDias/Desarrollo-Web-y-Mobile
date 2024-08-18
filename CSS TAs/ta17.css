@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+  }
+  
+  div {
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    border: solid 1px black;
+  }
+  
+  img {
+    position: absolute;
+    left: calc(55% - 175px);
+    top: calc(40% - 95px);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .centrados {
+    text-align: center;
+  }
